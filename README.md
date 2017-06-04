@@ -1,2 +1,10 @@
-# rixCloud_Surge-Data
-rixCloud General Surge User Data
+# rixCloud 用户通用 Surge 数据文件
+这些 Surge 数据是用于 rixCloud 管理门户自动配置文件生成，如果您希望添加某些规则条目或修改、删除某些您认为不适合的规则条目。请修改 `surge_data.php` 并提交 Pull Request，如果我们认为这个修改有价值并且适用性广泛，我们就会合并到主分支，并同步到 rixCloud 管理门户。
+
+### 注意事项
+
+我们仅接受具有普遍适用性的规则，同时该规则也不能存在副作用（如某些广告过滤规则可能导致部分访问出现问题）。
+
+提交规则修改时请使用英文或中文在 Git Commit 的 Summary 中说明修改的理由。
+
+推荐提交时附带 GPG 签名。
