@@ -601,6 +601,8 @@ DOMAIN-SUFFIX,mefeedia.com,rixCloud
 DOMAIN-SUFFIX,megabyet.net,rixCloud
 DOMAIN-SUFFIX,megurineluka.com,rixCloud
 DOMAIN-SUFFIX,memrijttm.org,rixCloud
+DOMAIN-SUFFIX,messenger.com,rixCloud
+DOMAIN-SUFFIX,messengerplatform.fb.com,rixCloud
 DOMAIN-SUFFIX,michaelanti.com,rixCloud
 DOMAIN-SUFFIX,michaelmarketl.com,rixCloud
 DOMAIN-SUFFIX,middle-way.net,rixCloud
