@@ -1,14 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Zero Clover
- * Date: 04/06/2017
- * Time: 9:35 AM
- */
-
-function getExtraSurgeData(){
-    $surge_custom = "
-
 [Rule]
 # Default
 DOMAIN-SUFFIX,apple.com,DIRECT
@@ -2139,6 +2128,3 @@ FINAL,rixCloud
 ^http://api.zhuishushenqi.com/advert - reject
 ^http://api.zhuishushenqi.com/recommend - reject
 ^http://api.zhuishushenqi.com/notification/shelfMessage - reject
-";
-    return $surge_custom;
-}

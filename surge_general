@@ -1,0 +1,8 @@
+[General]
+bypass-system = true
+skip-proxy = 10.0.0.0/8, 17.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16, localhost, *.local,*.crashlytics.com, *.epaylinks.cn
+bypass-tun = 10.0.0.0/8, 127.0.0.0/24, 172.0.0.0/8, 192.168.0.0/16
+dns-server = 111.231.193.18, 116.62.218.19, 123.207.5.200, 119.23.211.116, 119.29.1.150, 8.8.8.8
+loglevel = notify
+replica = false
+ipv6 = true
