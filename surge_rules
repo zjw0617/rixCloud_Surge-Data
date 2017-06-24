@@ -1,5 +1,4 @@
 
-
 [Rule]
 # Default
 DOMAIN-SUFFIX,apple.com,DIRECT
