@@ -2131,5 +2131,5 @@ FINAL,rixCloud
 ^http://hd.mobile.youku.com/common/v3/hudong/new - reject
 ^http://api.zhuishushenqi.com/advert - reject
 ^http://api.zhuishushenqi.com/recommend - reject
-^http://api.zhuishushenqi.com/notification/shelfMessage - reject
-Closes #X
+^http://api.zhuishushenqi.com/notification/shelfMessage - reject 
+\n
