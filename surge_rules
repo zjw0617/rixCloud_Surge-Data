@@ -1999,7 +1999,7 @@ DOMAIN-KEYWORD,gmail,rixCloud,force-remote-dns
 DOMAIN-KEYWORD,google,rixCloud,force-remote-dns
 DOMAIN-KEYWORD,gstatic,rixCloud,force-remote-dns
 DOMAIN-KEYWORD,instagram,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,cdninstagram.com,Proxy,force-remote-dns # Instagram CDN
+DOMAIN-SUFFIX,cdninstagram.com,rixCloud,force-remote-dns # Instagram CDN
 DOMAIN-KEYWORD,spotify,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,scdn.co,rixCloud,force-remote-dns # Spotify 的 CDN，分发歌曲地址
 DOMAIN-KEYWORD,twitter,rixCloud,force-remote-dns
