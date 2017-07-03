@@ -1234,6 +1234,7 @@ DOMAIN-SUFFIX,oschina.net,DIRECT
 DOMAIN-SUFFIX,pstatp.com,DIRECT
 DOMAIN,pptv.com,DIRECT
 DOMAIN-SUFFIX,panda.tv,DIRECT
+DOMAIN-KEYWORD,paypal,DIRECT # Paypal 相关域名 API，走直连，避免账户出现异常
 DOMAIN-SUFFIX,pdim.gs,DIRECT
 DOMAIN-SUFFIX,qbox.me,DIRECT
 DOMAIN-SUFFIX,qcloud.com,DIRECT
@@ -1998,7 +1999,9 @@ DOMAIN-KEYWORD,gmail,rixCloud,force-remote-dns
 DOMAIN-KEYWORD,google,rixCloud,force-remote-dns
 DOMAIN-KEYWORD,gstatic,rixCloud,force-remote-dns
 DOMAIN-KEYWORD,instagram,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,cdninstagram.com,rixCloud,force-remote-dns # Instagram CDN
 DOMAIN-KEYWORD,spotify,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,scdn.co,rixCloud,force-remote-dns # Spotify 的 CDN，分发歌曲地址
 DOMAIN-KEYWORD,twitter,rixCloud,force-remote-dns
 DOMAIN-KEYWORD,twimg,rixCloud,force-remote-dns
 DOMAIN-KEYWORD,youtube,rixCloud,force-remote-dns
