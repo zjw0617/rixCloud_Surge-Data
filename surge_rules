@@ -13,6 +13,19 @@ DOMAIN-SUFFIX,nflxext.com,rixCloud
 DOMAIN-SUFFIX,nflximg.com,rixCloud
 DOMAIN-SUFFIX,nflximg.net,rixCloud
 DOMAIN-SUFFIX,nflxvideo.net,rixCloud
+# myTV Super
+DOMAIN-KEYWORD,nowtv100,rixCloud
+DOMAIN-KEYWORD,rthklive,rixCloud
+DOMAIN-SUFFIX,mytvsuper.com,rixCloud
+DOMAIN-SUFFIX,tvb.com,rixCloud
+# Line
+DOMAIN-SUFFIX,lin.ee,rixCloud
+DOMAIN-SUFFIX,line.me,rixCloud
+DOMAIN-SUFFIX,line.naver.jp,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,line-apps.com,rixCloud
+DOMAIN-SUFFIX,line-cdn.net,rixCloud
+DOMAIN-SUFFIX,line-scdn.net,rixCloud
+DOMAIN-SUFFIX,nhncorp.jp,rixCloud
 # rixCloud
 DOMAIN-SUFFIX,0rz.tw,rixCloud
 DOMAIN-SUFFIX,0to255.com,rixCloud
@@ -78,7 +91,7 @@ DOMAIN-SUFFIX,apigee.com,rixCloud
 DOMAIN-SUFFIX,appledaily.com,rixCloud
 DOMAIN-SUFFIX,appledaily.com.hk,rixCloud
 DOMAIN-SUFFIX,appledaily.com.tw,rixCloud
-DOMAIN-SUFFIX,appspot.com,rixCloud
+DOMAIN-SUFFIX,appspot.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,archive.is,rixCloud
 DOMAIN-SUFFIX,archive.org,rixCloud
 DOMAIN-SUFFIX,arctosia.com,rixCloud
@@ -198,6 +211,7 @@ DOMAIN-SUFFIX,codeskulptor.org,rixCloud
 DOMAIN-SUFFIX,collateralmurder.com,rixCloud
 DOMAIN-SUFFIX,collateralmurder.org,rixCloud
 DOMAIN-SUFFIX,comedycentral.com,rixCloud
+DOMAIN-SUFFIX,content.office.net,rixCloud
 DOMAIN-SUFFIX,cotweet.com,rixCloud
 DOMAIN-SUFFIX,couchdbwiki.com,rixCloud
 DOMAIN-SUFFIX,cpj.org,rixCloud
@@ -537,7 +551,6 @@ DOMAIN-SUFFIX,lenwhite.com,rixCloud
 DOMAIN-SUFFIX,lerosua.org,rixCloud
 DOMAIN-SUFFIX,lesscss.org,rixCloud
 DOMAIN-SUFFIX,lightbox.com,rixCloud
-DOMAIN-SUFFIX,line.me,rixCloud
 DOMAIN-SUFFIX,linksalpha.com,rixCloud
 DOMAIN-SUFFIX,linpie.com,rixCloud
 DOMAIN-SUFFIX,linuxconfig.org,rixCloud
@@ -677,6 +690,7 @@ DOMAIN-SUFFIX,nyt.com,rixCloud
 DOMAIN-SUFFIX,nytco.com,rixCloud
 DOMAIN-SUFFIX,nytimes.com,rixCloud
 DOMAIN-SUFFIX,offbeatchina.com,rixCloud
+DOMAIN-SUFFIX,office365.com,rixCloud
 DOMAIN-SUFFIX,ogaoga.org,rixCloud
 DOMAIN-SUFFIX,oizoblog.com,rixCloud
 DOMAIN-SUFFIX,okayfreedom.com,rixCloud
@@ -2014,7 +2028,10 @@ DOMAIN-KEYWORD,analysis,REJECT,force-remote-dns
 DOMAIN-KEYWORD,domob,REJECT,force-remote-dns
 DOMAIN-KEYWORD,dnserror,REJECT,force-remote-dns
 DOMAIN-KEYWORD,openx,REJECT,force-remote-dns
+DOMAIN-KEYWORD,telegram,rixCloud,force-remote-dns
 # IPCIDR
+IP-CIDR,1.201.0.0/24,rixCloud,no-resolve
+IP-CIDR,27.0.236.0/22,rixCloud,no-resolve
 IP-CIDR,43.249.72.0/24,rixCloud,no-resolve
 IP-CIDR,64.30.224.0/24,rixCloud,no-resolve
 IP-CIDR,91.108.4.0/22,rixCloud,no-resolve
@@ -2036,20 +2053,29 @@ IP-CIDR,101.227.12.0/23,REJECT,no-resolve
 IP-CIDR,101.227.14.0/24,REJECT,no-resolve
 IP-CIDR,101.227.119.0/24,REJECT,no-resolve
 IP-CIDR,101.227.200.0/24,REJECT,no-resolve
+IP-CIDR,103.2.28.0/22,rixCloud,no-resolve
+IP-CIDR,103.27.148.0/22,rixCloud,no-resolve
+IP-CIDR,103.246.56.0/22,rixCloud,no-resolve
 IP-CIDR,106.11.11.86/32,REJECT,no-resolve
 IP-CIDR,107.20.211.189/32,REJECT,no-resolve
 IP-CIDR,108.61.200.51/32,REJECT,no-resolve
+IP-CIDR,110.76.140.0/22,rixCloud,no-resolve
 IP-CIDR,111.63.135.0/24,REJECT,no-resolve
 IP-CIDR,111.206.13.60/30,REJECT,no-resolve
 IP-CIDR,111.206.13.64/28,REJECT,no-resolve
 IP-CIDR,111.206.13.80/32,REJECT,no-resolve
 IP-CIDR,111.206.13.250/31,REJECT,no-resolve
 IP-CIDR,111.206.22.0/24,REJECT,no-resolve
+IP-CIDR,113.61.104.0/22,rixCloud,no-resolve
 IP-CIDR,113.207.57.24/32,REJECT,no-resolve
 IP-CIDR,115.29.247.48/32,REJECT,no-resolve
 IP-CIDR,116.206.22.7/32,REJECT,no-resolve
 IP-CIDR,117.34.51.0/24,REJECT,no-resolve
 IP-CIDR,119.188.13.0/24,REJECT,no-resolve
+IP-CIDR,119.235.224.0/21,rixCloud,no-resolve
+IP-CIDR,119.235.232.0/23,rixCloud,no-resolve
+IP-CIDR,119.235.235.0/24,rixCloud,no-resolve
+IP-CIDR,119.235.236.0/23,rixCloud,no-resolve
 IP-CIDR,120.26.151.246/32,REJECT,no-resolve
 IP-CIDR,120.55.199.139/32,REJECT,no-resolve
 IP-CIDR,120.77.11.172/32,REJECT,no-resolve
@@ -2067,9 +2093,16 @@ IP-CIDR,123.125.117.0/24,REJECT,no-resolve
 IP-CIDR,123.125.118.0/24,REJECT,no-resolve
 IP-CIDR,123.206.1.246/32,REJECT,no-resolve
 IP-CIDR,124.116.241.0/24,REJECT,no-resolve
+IP-CIDR,125.6.146.0/24,rixCloud,no-resolve
+IP-CIDR,125.6.149.0/24,rixCloud,no-resolve
+IP-CIDR,125.6.190.0/24,rixCloud,no-resolve
 IP-CIDR,140.205.36.26/32,REJECT,no-resolve
 IP-CIDR,180.76.190.68/32,REJECT,no-resolve
 IP-CIDR,183.131.79.130/32,REJECT,no-resolve
+IP-CIDR,203.104.103.0/24,rixCloud,no-resolve
+IP-CIDR,203.104.128.0/20,rixCloud,no-resolve
+IP-CIDR,203.174.66.64/26,rixCloud,no-resolve
+IP-CIDR,203.174.77.0/24,rixCloud,no-resolve
 IP-CIDR,211.137.132.89/32,REJECT,no-resolve
 IP-CIDR,221.179.183.0/24,REJECT,no-resolve
 IP-CIDR,221.179.191.0/24,REJECT,no-resolve
